@@ -6,7 +6,7 @@ var userClickedPattern = [];
 var gameIsOn = false;
 var level = 0;
 
-
+/////text
 
 $(document).keypress(function(){
     if (!gameIsOn)
