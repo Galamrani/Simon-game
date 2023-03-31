@@ -6,12 +6,10 @@ var userClickedPattern = [];
 var gameIsOn = false;
 var level = 0;
 
-/////text
 
 $(document).keypress(function(){
     if (!gameIsOn)
     {
-        $("#level-title").text("Level - " + level);
         nextSequence();
         gameIsOn = true;
     }
@@ -53,11 +51,14 @@ function nextSequence()
     gamePattern = [];
     level++;
     $("#level-title").text("Level - " + level);
-    let randomNumber = Math.round(Math.random()*3); //random number 0-3
-    let randomChosenColour = buttonColours[randomNumber];
-    gamePattern.push(randomChosenColour);
-    $("." + randomChosenColour).delay(100).fadeOut().fadeIn('slow')
-    playSound(randomChosenColour);
+    for(let i = 0; i < level; i++)
+    {
+        let randomNumber = Math.round(Math.random()*3); //random number 0-3
+        let randomChosenColour = buttonColours[randomNumber];
+        gamePattern.push(randomChosenColour);
+        $("." + randomChosenColour).delay(100).fadeOut().fadeIn('slow');
+        playSound(randomChosenColour);
+    }
     
 }
 
