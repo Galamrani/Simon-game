@@ -58,7 +58,7 @@ async function nextSequence()
         gamePattern.push(randomChosenColour);
         $("." + randomChosenColour).delay(100).fadeOut().fadeIn('slow');
         playSound(randomChosenColour);
-        await new Promise(r => setTimeout(r, 800));
+        await new Promise(r => setTimeout(r, 700));
     }
     
 }
