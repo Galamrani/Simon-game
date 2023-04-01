@@ -45,7 +45,7 @@ function checkAnswer(currentLevel)
 
 }
 
-function nextSequence()
+async function nextSequence()
 {
     userClickedPattern = [];
     gamePattern = [];
@@ -58,6 +58,7 @@ function nextSequence()
         gamePattern.push(randomChosenColour);
         $("." + randomChosenColour).delay(100).fadeOut().fadeIn('slow');
         playSound(randomChosenColour);
+        await new Promise(r => setTimeout(r, 800));
     }
     
 }
