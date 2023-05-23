@@ -1,7 +1,8 @@
 # Simon Game
 
 ## Description
-This is a simple Simon game implemented using HTML, CSS, and JavaScript. The game requires the player to remember and repeat a sequence of colors.
+This is a simple Simon game implemented using HTML, CSS, and JavaScript. 
+The game requires the player to remember and repeat a sequence of colors.
 
 ## Usage
 To play the game, use this URL https://galamrani.github.io/Simon-game/ or open `index.html` in a web browser. 
