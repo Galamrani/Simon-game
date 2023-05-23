@@ -10,10 +10,10 @@ Press any key to start the game. The game will display a sequence of colors, and
 If the player clicks the colors correctly, the game will continue to the next level. If the player makes a mistake, the game will end, and they can restart by pressing any key.
 
 ## Screenshots
-Include screenshots of the game interface or any relevant visuals here.
-
--Screenshots
--Screenshots
+<p float="left">
+  <img src="Screenshots/Simon - 1.png" width = "40%" />
+  <img src="Screenshots/Simon - 2.png" width = "40%" />
+</p>
 
 ## Files
 - `index.html`: The HTML file that contains the structure and elements of the game.
