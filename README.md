@@ -1,7 +1,7 @@
 # Simon Game
 
 ## Description
-This is a simple Simon game implemented using HTML, CSS, and JavaScript. 
+This is a Simon game implemented using HTML, CSS, and JavaScript. 
 The game requires the player to remember and repeat a sequence of colors.
 
 ## Usage
