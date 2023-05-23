@@ -11,8 +11,7 @@ If the player clicks the colors correctly, the game will continue to the next le
 
 ## Screenshots
 <p float="left">
-  <img src="Screenshots/Simon - 1.png" width = "40%" />
-  <img src="Screenshots/Simon - 2.png" width = "40%" />
+  <img src="Screenshots/Simon - 1.png" width = "50%" />
 </p>
 
 ## Files
