@@ -9,7 +9,7 @@ To play the game, open `index.html` in a web browser or use this link https://gi
 Press any key to start the game. The game will display a sequence of colors, and the player needs to click the colors in the same order. 
 If the player clicks the colors correctly, the game will continue to the next level. If the player makes a mistake, the game will end, and they can restart by pressing any key.
 
-## Screenshots
+## Screenshot & Video
 <p float="left">
   <img src="Screenshots/Simon - 1.png" width = "50%" />
 </p>
