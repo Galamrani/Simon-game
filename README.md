@@ -14,6 +14,8 @@ If the player clicks the colors correctly, the game will continue to the next le
   <img src="Screenshots/Simon - 1.png" width = "50%" />
 </p>
 
+https://github.com/Galamrani/SimonGame-WebApp/assets/97801269/a73e718e-99ea-4b36-9116-b7592ae8fba1
+
 ## Files
 - `index.html`: The HTML file that contains the structure and elements of the game.
 - `game.js`: The JavaScript file that handles the game logic and user interactions.
